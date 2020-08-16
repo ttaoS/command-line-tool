@@ -31,10 +31,12 @@ cargo build
 ```bash
 ## display help info
 ./target/debug/print-users --help 
+
 ## read from data.json and only print 1 user
 ./target/debug/print-users /path/data.json  1
+
 ## read from data.json and print all users
-./target/debug/print-users /path/data.json  1 
+./target/debug/print-users /path/data.json
 ```
 ## Sample input file 
 
