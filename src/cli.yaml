@@ -1,0 +1,12 @@
+name: print-users
+version: "1.0"
+author: Tony Tao <taotao8851@gmail.com>
+about: Print user info from a Json file
+args:
+  - INPUT:
+      about: Sets the input user file to use
+      required: true
+      index: 1
+  - LIMIT:
+      about: The number of how many users will be printed. If it is not provided, all users will be printed.
+      index: 2
